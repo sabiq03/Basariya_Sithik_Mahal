@@ -160,7 +160,7 @@ text-decoration: none;
   
   .section2 {
   height: 100vh;
-  background: url('/mahalimg2.jpeg') center/cover no-repeat;
+  background: url('mahalimg2.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,7 +168,7 @@ text-decoration: none;
   
   .section3 {
   height: 100vh;
-  background: url('images_mahal/mahalimg7.png') center/cover no-repeat;
+  background: url("mahalimg7.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
