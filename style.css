@@ -76,7 +76,7 @@ text-decoration: none;
 /* HERO */
 .hero {
 height: 100vh;
-background: url('images_mahal/mahalimg5.png') center/cover no-repeat;
+background: url('mahalimg5.png') center/cover no-repeat;
 
   font-family: 'Playfair Display', serif;
 
@@ -152,7 +152,7 @@ text-decoration: none;
 
 .section1 {
   height: 100vh;
-  background: url('images_mahal/mahalimg1.jpeg') center/cover no-repeat;
+  background: url('mahalimg1.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
