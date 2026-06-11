@@ -151,7 +151,7 @@ text-decoration: none;
 
 
 .section1 {
-  height: 100vh;
+  /* height: 100vh; */
   background: url('mahalimg1.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -159,7 +159,7 @@ text-decoration: none;
   }
   
   .section2 {
-  height: 100vh;
+  /* height: 100vh; */
   background: url('mahalimg2.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -167,12 +167,28 @@ text-decoration: none;
   }
   
   .section3 {
-  height: 100vh;
+  /* height: 100vh; */
   background: url("mahalimg7.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   }
+
+
+
+.section {
+  min-height: 60vh; /* flexible height */
+}
+html, body {
+  height: auto;
+  overflow-x: hidden;
+}
+margin-bottom: 100px;
+padding-bottom: 100px;
+main {
+  min-height: 100vh;
+}
+
 
 /* FOOTER */
 footer {
@@ -180,6 +196,12 @@ background: rgb(90, 103, 140);
 text-align: center;
 padding: 20px;
 }
+
+footer {
+  margin-bottom: 0;
+}
+
+
 
 /* WHATSAPP */
 .whatsapp {
